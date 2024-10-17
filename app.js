@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const logger = require('morgan');
 
-import config from './config/default.js'
+const config =require('./config/default.js')
 const connectDB = require('./db/db.js')
 
 const homeRouter=require('./routes/Home.js');
